@@ -4,7 +4,7 @@ import "./_style.scss";
 
 export const Header: React.FC = () => {
   return (
-    <header>
+    <header className="header">
       <Container>
         <Top/>
         <Base/>
