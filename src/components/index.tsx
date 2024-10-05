@@ -13,3 +13,7 @@ export {Distributions} from "../components/sections/home/07-distributions"
 export {Video} from "../components/sections/home/08-video"
 export {News} from "../components/sections/home/09-news"
 export {Description} from "../components/sections/home/10-description"
+// Header Components
+export {Top} from '../components/layouts/header/header-components/01-top'
+export {Base} from '../components/layouts/header/header-components/02-base'
+export {Bottom} from '../components/layouts/header/header-components/03-bottom'
