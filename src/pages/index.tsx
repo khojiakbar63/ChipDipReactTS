@@ -1,2 +1,4 @@
 export { Catalog } from "./catalog";
-export { About } from "./about";
+export { Home } from "./home";
+export { Details } from "./details";
+export { Consumables } from "./consumables";
