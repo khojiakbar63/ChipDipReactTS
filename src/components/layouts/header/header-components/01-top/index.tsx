@@ -26,9 +26,7 @@ export const Top: React.FC = () => {
 
       <Box className="top--calc">
         <Image className="top--calc-img" src={Calculator} alt="calculator" />
-        <Link to={"#"} className="top--calc-text">
-          Калькуляторы
-        </Link>
+        <Link to={"#"} className="top--calc-text">Калькуляторы</Link>
       </Box>
     </Box>
   );

@@ -41,6 +41,7 @@ $D9B: #b4babd9b;
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
     &:hover {
       .top--calc-text {
         border-bottom: 1px solid $D9B;
