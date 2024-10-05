@@ -1,13 +1,13 @@
 import React from "react";
-import { Container } from "../../../../components";
+import { Container, Section } from "../../../../components";
 import './_style.scss'
 
 export const Application: React.FC = () => {
   return (
-    <div>
+    <Section>
       <Container>
         <h1>Application</h1>
       </Container>
-    </div>
+    </Section>
   );
 };
