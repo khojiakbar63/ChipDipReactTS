@@ -10,23 +10,26 @@ import Cart from "../../../../../assets/icons/cart.svg";
 
 import "./_style.scss";
 
-
 export const Base: React.FC = () => {
   return (
     <Box className="base">
-      <Flex className="base--left" gap={'32px'} alignItems={'center'}>
+      <Flex className="base--left" gap={"32px"} alignItems={"center"}>
         <Image className="base--left-logo" src={Logo} alt="Logo" />
         <Box className="base--left--wrapper">
           <Flex className="base--left--wrapper--location">
-            <Image className="base--left--wrapper--location-img" src={Location} alt="location" />
-            <Link className="base--left--wrapper--location-link" to={'#'}>Россия</Link>
+            <Image
+              className="base--left--wrapper--location-img"
+              src={Location}
+              alt="location"
+            />
+            <Link className="base--left--wrapper--location-link" to={"#"}>
+              Россия
+            </Link>
           </Flex>
-          <p className="base--left--wrapper-text"  >Магазины и оптовые отделы</p>
+          <p className="base--left--wrapper-text">Магазины и оптовые отделы</p>
         </Box>
       </Flex>
 
-
-      
       <Flex className="base--right">
         <Box className="base--right--wrapper">
           <Image src={User} alt="User" />

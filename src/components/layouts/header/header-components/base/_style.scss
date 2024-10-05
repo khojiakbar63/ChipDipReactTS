@@ -6,7 +6,7 @@ $D9B: #b4babd9b;
   padding: 0 25px 4px;
   display: flex;
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 15px 0px;
   &--left {
     &-logo {
       width: 288px;
@@ -51,43 +51,41 @@ $D9B: #b4babd9b;
       }
     }
   }
-  &--right{
+  &--right {
     gap: 38.39px;
     align-items: center;
-    &--wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        cursor: pointer;
-        &:last-child{
-            position: relative;
-            .counter {
-                position: absolute;
-                top: 3px;
-                left: 30px;
-                color: #fff;
-                font-weight: 400;
-                font-size: 11px;
-                line-height: 12px;
-            }
+    &--wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      &:last-child {
+        position: relative;
+        .counter {
+          position: absolute;
+          top: 3px;
+          left: 30px;
+          color: #fff;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 12px;
         }
-        &:hover {
-            .base--right--wrapper-text{
-                border-bottom: 1px solid $D9B;
-            }
+      }
+      &:hover {
+        .base--right--wrapper-text {
+          border-bottom: 1px solid $D9B;
         }
-        &-text{
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 16px;
-            color: $D38;
+      }
+      &-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: $D38;
 
-           
-            height: 17px;
-            border-bottom: 1px solid transparent;
-            transition: all 0.1s ease-in-out;
-
-        }
+        height: 17px;
+        border-bottom: 1px solid transparent;
+        transition: all 0.1s ease-in-out;
+      }
     }
-}
+  }
 }

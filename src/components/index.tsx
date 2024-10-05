@@ -3,17 +3,17 @@ export { Footer } from "./layouts/footer";
 export {Container} from "./layouts/container"
 export {Section} from "./layouts/section"
 // Home Page
-export {Hero} from "../components/sections/home/01-hero"
-export {Application} from "../components/sections/home/02-application"
-export {PopCategories} from "../components/sections/home/03-pop-categories"
-export {Bestsellers} from "../components/sections/home/04-bestsellers"
-export {BestOffers} from "../components/sections/home/05-best-offers"
-export {GainingPopularity} from "../components/sections/home/06-gaining-popularity"
-export {Distributions} from "../components/sections/home/07-distributions"
-export {Video} from "../components/sections/home/08-video"
-export {News} from "../components/sections/home/09-news"
-export {Description} from "../components/sections/home/10-description"
+export {Hero} from "./sections/home/hero"
+export {Application} from "./sections/home/application"
+export {PopCategories} from "./sections/home/pop-categories"
+export {Bestsellers} from "./sections/home/bestsellers"
+export {BestOffers} from "./sections/home/best-offers"
+export {GainingPopularity} from "./sections/home/gaining-popularity"
+export {Distributions} from "./sections/home/distributions"
+export {Video} from "./sections/home/video"
+export {News} from "./sections/home/news"
+export {Description} from "./sections/home/description"
 // Header Components
-export {Top} from '../components/layouts/header/header-components/01-top'
-export {Base} from '../components/layouts/header/header-components/02-base'
-export {Bottom} from '../components/layouts/header/header-components/03-bottom'
+export {Top} from './layouts/header/header-components/top'
+export {Base} from './layouts/header/header-components/base'
+export {Bottom} from './layouts/header/header-components/bottom'

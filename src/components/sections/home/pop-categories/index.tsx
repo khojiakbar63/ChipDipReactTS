@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Section } from "../../../../components";
+import { Container, Section } from "../../..";
 import './_style.scss'
 
-export const Description: React.FC = () => {
+export const PopCategories: React.FC = () => {
   return (
     <Section>
       <Container>
-        <h1>Description</h1>
+        <h1>Pop Categories</h1>
       </Container>
     </Section>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Section } from "../../../../components";
+import { Container, Section } from "../../..";
 import './_style.scss'
 
 export const Distributions: React.FC = () => {
