@@ -8,6 +8,10 @@ $ABD: #b4babd;
 
 .bottom {
   display: flex;
+  position: sticky !important;
+  bottom: 0;
+  z-index: 100;
+
   &--btn {
     min-width: 240.72px;
     background: $Red613;

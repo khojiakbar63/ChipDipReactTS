@@ -7,6 +7,8 @@ $D9B: #b4babd9b;
   min-height: 22px;
   display: flex;
   align-items: center;
+  background: #fff;
+  z-index: 1000;
   &--list {
     display: flex;
     align-items: center;

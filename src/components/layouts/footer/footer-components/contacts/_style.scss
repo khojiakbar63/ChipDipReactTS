@@ -1,0 +1,62 @@
+$A415: #00415a;
+$D38: #1c2d38;
+$FA7: #8b9fa7;
+$D9B: #b4babd9b;
+$A222: #222222;
+.contacts {
+  display: flex;
+  flex-direction: column;
+  &-call {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: all 0.1s ease-in-out;
+    width: fit-content;
+    margin-bottom: 16px;
+    &:hover {
+      border-bottom: 1px solid $D9B;
+    }
+  }
+  &--mail-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 4px;
+  }
+  &--mail-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      border-bottom: 1px solid $D9B;
+    }
+  }
+  &--stores-title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    margin: 45px 0 17px;
+  }
+  &--stores {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &-store {
+      width: 132px;
+      background-color: $A222;
+      padding: 6px 16px;
+      border-radius: 5px;
+      transition: all 0.1s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background-color: #000;
+      }
+    }
+  }
+}
