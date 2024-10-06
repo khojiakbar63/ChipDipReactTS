@@ -1,0 +1,56 @@
+$A415: #00415a;
+$D38: #1c2d38;
+$FA7: #8b9fa7;
+$D9B: #b4babd9b;
+$A222: #222222;
+
+.lists {
+  gap: 90px;
+
+  &--list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    &:first-child {
+      width: 260px;
+    }
+    &--item {
+      cursor: pointer;
+      height: 23px;
+      border-bottom: 1px solid transparent;
+      transition: all 0.1s ease-in-out;
+      width: fit-content;
+      &:hover {
+        border-bottom: 1px solid $D9B;
+      }
+      &-link_title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+      }
+    }
+  }
+  &--list_second {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 209px;
+    &--item {
+      cursor: pointer;
+      height: 23px;
+      border-bottom: 1px solid transparent;
+      width: fit-content;
+      transition: all 0.1s ease-in-out;
+      &:hover {
+        border-bottom: 1px solid $D9B;
+      }
+      &-link {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #fff;
+      }
+    }
+  }
+}
