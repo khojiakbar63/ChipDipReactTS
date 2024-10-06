@@ -9,7 +9,6 @@ export const Description: React.FC = () => {
     <Section>
       <Container>
         <Flex className="description">
-          
           <div className="description--wrapper">
             <Text className="description--wrapper--primary"><Text className="description--wrapper--primary-title">«ЧИП и ДИП»</Text> — уникальный и самый узнаваемый
               бренд на рынке микроэлектроники. <br />
@@ -17,7 +16,7 @@ export const Description: React.FC = () => {
               измерительные приборы, паяльное оборудование,
               инструменты, компоненты Arduino,
               электротехнические изделия, комплектующие для
-              бытовой электроники и многое другое.</Text>
+              бытовой электроники и многое другое.</Text> 
 
             <Text className="description--wrapper--secondary">Обширный, регулярно обновляемый, каталог включает более
               7 000 000 наименований товаров. Интеллектуальный и удобный
@@ -28,7 +27,6 @@ export const Description: React.FC = () => {
               Казахстан, Армению и Киргизию.</Text>
           </div>
           <img src={mainInfo} width={925} height={538} alt="picture" />
-
         </Flex>
       </Container>
     </Section>
