@@ -1,0 +1,41 @@
+.aplication{
+    display: flex;
+    color: white;
+    margin-top: 40px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    background-color: #0F415A;
+    padding-left: 48px;
+
+    .text{
+        display: flex;
+        align-items: center;
+        padding-right: 125px;
+
+        h1{
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            margin-left: 14px;
+            padding-left: 14px;
+            line-height: 18px;
+            border-left: 1px solid white;
+
+        }
+    }
+
+    Button{
+       width: 234px;
+       height: 42px;
+       font-size: 16px;
+       margin-top: 10px;
+       font-weight: 400;
+       border-radius: 20px;
+       border: 1px solid white;
+       background-color: #0F415A;
+    }
+}
