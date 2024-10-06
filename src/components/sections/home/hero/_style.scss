@@ -27,7 +27,6 @@
             display: none;
         }
 
-        // Slide transitions using radio buttons
         #slide1:checked~.slides {
             transform: translateX(0);
         }
@@ -40,7 +39,7 @@
             transform: translateX(-66.66%);
         }
 
-        // Control buttons (prev, next)
+       
 
     }
 
@@ -104,14 +103,13 @@
 
             &:hover {
                 border-bottom: 2px solid red;
-                /* Hover qilinganda pastki chiziq */
             }
 
             &--active {
                 color: #000;
                 font-weight: bold;
                 border-bottom: 2px solid red;
-                /* Faqat faol bo'lgan linkda qizil chiziq */
+               
             }
         }
     }
