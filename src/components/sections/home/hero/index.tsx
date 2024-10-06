@@ -5,7 +5,6 @@ import { GoArrowLeft } from "react-icons/go";
 import HeroImg from "../../../../assets/Img/HeroImg.png"
 import CaruselImg from "../../../../assets/Img/CaruselImg_1.png"
 import CaruselIMg2 from "../../../../assets/Img/CaruselImg_2.png"
-
 import './_style.scss'
 
 export const Hero: React.FC = () => {
