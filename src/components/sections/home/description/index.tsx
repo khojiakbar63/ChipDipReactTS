@@ -9,6 +9,7 @@ export const Description: React.FC = () => {
     <Section>
       <Container>
         <Flex className="description">
+          
           <div className="description--wrapper">
             <Text className="description--wrapper--primary"><Text className="description--wrapper--primary-title">«ЧИП и ДИП»</Text> — уникальный и самый узнаваемый
               бренд на рынке микроэлектроники. <br />
@@ -27,6 +28,7 @@ export const Description: React.FC = () => {
               Казахстан, Армению и Киргизию.</Text>
           </div>
           <img src={mainInfo} width={925} height={538} alt="picture" />
+
         </Flex>
       </Container>
     </Section>
