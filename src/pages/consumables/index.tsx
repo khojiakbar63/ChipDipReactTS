@@ -14,11 +14,11 @@ import "./_style.scss";
 export const Consumables: React.FC = () => {
   return (
     <Container>
-      <Spacer className="h-23" />
+      <Spacer className="h-30" />
       <Image src={Banner} alt="banner" />
       <Spacer className="h-23" />
       <ConsumablesBreadcrump />
-      <Spacer className="h-23" />
+      <Spacer className="h-22" />
       <ConsumablesConsumables />
       <Spacer className="h-23" />
       <ConsumablesDescription />

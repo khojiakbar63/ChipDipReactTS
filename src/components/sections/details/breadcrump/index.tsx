@@ -1,19 +1,33 @@
 import React from "react";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Image } from "@chakra-ui/react";
+import B_right from "../../../../assets/icons/b-right.svg"
 import "./_style.scss";
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/react";
+
 export const DetailBreadcrump: React.FC = () => {
   return (
-    <Breadcrumb fontWeight="medium" fontSize="sm">
-      <BreadcrumbItem>
-        <BreadcrumbLink href="#">Home</BreadcrumbLink>
+    <Breadcrumb separator={<Image src={B_right} />} className="bread" fontWeight="medium" fontSize="sm">
+      <BreadcrumbItem className="bread--item">
+        <BreadcrumbLink className="bread--item-link" href="#">Главная</BreadcrumbLink>
       </BreadcrumbItem>
 
-      <BreadcrumbItem>
-        <BreadcrumbLink href="#">About</BreadcrumbLink>
+      <BreadcrumbItem className="bread--item">
+        <BreadcrumbLink className="bread--item-link" href="#">Электронные компоненты</BreadcrumbLink>
       </BreadcrumbItem>
 
-      <BreadcrumbItem isCurrentPage>
-        <BreadcrumbLink href="#">Current</BreadcrumbLink>
+      <BreadcrumbItem className="bread--item">
+        <BreadcrumbLink className="bread--item-link" href="#">Микросхемы</BreadcrumbLink>
+      </BreadcrumbItem>
+
+      <BreadcrumbItem className="bread--item">
+        <BreadcrumbLink className="bread--item-link" href="#">AC-DC Преобразователи, Off-Line коммутаторы</BreadcrumbLink>
+      </BreadcrumbItem>
+
+      <BreadcrumbItem className="bread--item">
+        <BreadcrumbLink className="bread--item-link" href="#">ON Semiconductor</BreadcrumbLink>
+      </BreadcrumbItem>
+
+      <BreadcrumbItem className="bread--item" isCurrentPage>
+        <BreadcrumbLink className="bread--item-link" href="#">FS7M0880YDTU, Контроллер off-line SMPS ...</BreadcrumbLink>
       </BreadcrumbItem>
     </Breadcrumb>
   );

@@ -12,7 +12,7 @@ export const Details: React.FC = () => {
         <Image src={DetailBanner} alt="banner" />
         <Spacer className="h-23" />
         <DetailBreadcrump/>
-        <Spacer className="h-23" />
+        <Spacer className="h-21" />
         <DetailedProduct />
         <Spacer className="h-23" />
         <DetailedDescription />

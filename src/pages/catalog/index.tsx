@@ -15,7 +15,7 @@ export const Catalog: React.FC = () => {
   return (
     <div>
       <Container>
-      <Spacer className="h-23" />
+      <Spacer className="h-14" />
         <Breadcrump />
         <Spacer className="h-23" />
         <TopActions />

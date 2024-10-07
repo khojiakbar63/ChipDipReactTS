@@ -1,3 +1,32 @@
+$D38: #1c2d38;
+$FA7: #8b9fa7;
+$D9B: #b4babd9b;
+$D9F: #9D9D9F;
+
 .bread {
-    
+  &--item {
+    &-link {
+      color: $D38;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 18px;
+      text-decoration: none !important;
+      border-bottom: 1px solid transparent;
+      transition: all 0.1s ease-in-out;
+      &:last-child{
+        color: $D9F;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 26px;
+        text-decoration: none !important;
+        &:hover{
+          border-bottom: 1px solid transparent;
+        }
+    }
+      &:hover {
+        border-bottom: 1px solid $D9B;
+      }
+    }
+   
+  }
 }
