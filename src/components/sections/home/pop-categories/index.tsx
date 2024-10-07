@@ -21,7 +21,7 @@ export const PopCategories: React.FC = () => {
             </div>
             <div>
               <div className="card_2">
-                <h1>Химия</h1>
+                <h1 className="chemstry">Химия</h1>
                 <img src={ChemicalPng} alt="#" />
               </div>
               <div className="card_3">
