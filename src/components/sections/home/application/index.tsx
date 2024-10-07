@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Section } from "../../..";
 import { Button } from "@chakra-ui/react";
 import './_style.scss'
+import { Link } from "react-router-dom";
 
 export const Application: React.FC = () => {
   return (
@@ -9,9 +10,9 @@ export const Application: React.FC = () => {
       <Container>
         <div className="aplication">
           <div className="text">
-            <h1>Стать партнером</h1>
-            <p>Приглашаем к сотрудничеству <br />
-              производителей и дистрибьюторов</p>
+            <Link to='/'><h1>Стать партнером</h1></Link>
+            <Link to='/'><p>Приглашаем к сотрудничеству <br />
+            производителей и дистрибьюторов</p></Link>
           </div>
 
           <Button colorScheme='blue' w={234} h={42} rounded={20}>Подать заявку</Button>
