@@ -26,7 +26,7 @@ export const Description: React.FC = () => {
             <Text className="description--wrapper--secondary">Мы доставляем заказы во все регионы России, в Беларусь,
               Казахстан, Армению и Киргизию.</Text>
           </div>
-          <img src={mainInfo} width={925} height={538} alt="picture" />
+          <img className="description--image" src={mainInfo} width={965} height={538} alt="picture" />
         </Flex>
       </Container>
     </Section>
