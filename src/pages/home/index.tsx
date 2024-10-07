@@ -7,8 +7,7 @@ import {
   BestOffers,
   GainingPopularity,
   Distributions,
-  Video,
-  News,
+  NewsVideos,
   Description,
 } from "../../components";
 import "./_style.scss";
@@ -22,8 +21,7 @@ export const Home: React.FC = () => {
     <BestOffers />
     <GainingPopularity />
     <Distributions />
-    <Video />
-    <News />
+    <NewsVideos/>
     <Description />
   </>;
 };
