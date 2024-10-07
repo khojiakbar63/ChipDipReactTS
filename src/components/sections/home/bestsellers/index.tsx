@@ -2,6 +2,7 @@ import React from 'react';
 import { hitsData } from '../../../../mocks';
 import { Container, Section } from "../../../../components";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+import line from '../../../../assets/images/line.svg'
 
 import './_style.scss';
 
@@ -30,15 +31,18 @@ export const Bestsellers: React.FC = () => {
                                     <div className="card-footer">
                                         {product.price && <p className="card-price">{product.price}</p>}
                                     </div>
+                                    <div className="line">
+                                        <img src={line} alt="" />
+                                    </div>
                                 </div>
                             ))}
-                    <div className="hits-promo">
-                        <div className="promo-text">
-                        <h3 className='promo-title'>{hitsData.products[hitsData.products.length - 1].promoName}</h3>
-                        <p className='promo-description'>{hitsData.products[hitsData.products.length - 1].promoText}</p>
+                        <div className="hits-promo">
+                            <div className="promo-text">
+                                <h3 className='promo-title'>{hitsData.products[hitsData.products.length - 1].promoName}</h3>
+                                <p className='promo-description'>{hitsData.products[hitsData.products.length - 1].promoText}</p>
+                            </div>
+                            <button className="promo-button">{hitsData.products[hitsData.products.length - 1].buttonText}</button>
                         </div>
-                        <button className="promo-button">{hitsData.products[hitsData.products.length - 1].buttonText}</button>
-                    </div>
                     </div>
                 </div>
             </Container>
