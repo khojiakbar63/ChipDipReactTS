@@ -1,0 +1,59 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    h3{
+        font-size: 21px;
+        font-weight: 700;
+        color: #5C5C5D;
+
+    }
+   .newsCard{
+        display: flex;
+        flex-direction: column;
+    .pagination{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 12px;
+        .paginationItem{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+    .partItems{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 24px;
+        .newsBox{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+            img{
+                width: 100px;
+                height: 90px;
+            }
+            .aboutInfo{
+                overflow: hidden;
+                p{
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    color: #1C2D38;
+                }
+                h3{
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #1C2D38;
+                    ;
+                }
+            }
+        }
+    }
+   }
+}
