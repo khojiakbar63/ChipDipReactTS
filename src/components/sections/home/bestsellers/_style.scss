@@ -1,0 +1,109 @@
+.hits-section {
+  margin-top: 30px;
+  background-color: #f7fcff;
+  padding: 20px;
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .section-title {
+      padding-top: 30px;
+      font-size: 21px;
+      font-weight: 700;
+      color: #5c5c5d;
+    }
+
+    .arrows-button {
+      display: flex;
+      gap: 10px;
+      font-size: 20px;
+    }
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      background-color: #fff;
+      border-right: 1px solid #e6e6e6;
+      width: 265px;
+      height: 340px;
+      padding: 15px 20px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .card-brand {
+        font-size: 11px;
+        font-weight: 700;
+        color: #1c2d38;
+        margin-bottom: 8px;
+      }
+
+      .card-text {
+        height: 70px;
+        margin-bottom: 20px;
+
+        .card-name {
+          font-size: 16px;
+          color: #1c2d38;
+          font-weight: 400;
+          margin-bottom: 12px;
+        }
+      }
+
+      .card-footer {
+        .card-price {
+          font-size: 24px;
+          font-weight: 700;
+          color: #5c5c5d;
+        }
+      }
+    }
+
+    .hits-promo {
+      border: 3px solid #000;
+      width: 220px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .promo-text {
+        .promo-title {
+          font-size: 21px;
+          font-weight: 700;
+          color: #1C2D38;
+          margin-bottom: 8px;
+        }
+
+        .promo-description {
+          font-size: 16px;
+          color: #1C2D38;
+        }
+      }
+
+      .promo-button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        transition: background-color 0.2s;
+
+        &:hover {
+          background-color: #555;
+        }
+      }
+    }
+  }
+}

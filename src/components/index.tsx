@@ -2,18 +2,41 @@ export { Header } from "./layouts/header";
 export { Footer } from "./layouts/footer";
 export {Container} from "./layouts/container"
 export {Section} from "./layouts/section"
+export {Aside} from './layouts/aside'
 // Home Page
-export {Hero} from "../components/sections/home/01-hero"
-export {Application} from "../components/sections/home/02-application"
-export {PopCategories} from "../components/sections/home/03-pop-categories"
-export {Bestsellers} from "../components/sections/home/04-bestsellers"
-export {BestOffers} from "../components/sections/home/05-best-offers"
-export {GainingPopularity} from "../components/sections/home/06-gaining-popularity"
-export {Distributions} from "../components/sections/home/07-distributions"
-export {Video} from "../components/sections/home/08-video"
-export {News} from "../components/sections/home/09-news"
-export {Description} from "../components/sections/home/10-description"
+export {Hero} from "./sections/home/hero"
+export {Application} from "./sections/home/application"
+export {PopCategories} from "./sections/home/pop-categories"
+export {Bestsellers} from "./sections/home/bestsellers"
+export {BestOffers} from "./sections/home/best-offers"
+export {GainingPopularity} from "./sections/home/gaining-popularity"
+export {Distributions} from "./sections/home/distributions"
+export {Video} from "./sections/home/video"
+export {News} from "./sections/home/news"
+export {Description} from "./sections/home/description"
 // Header Components
-export {Top} from '../components/layouts/header/header-components/01-top'
-export {Base} from '../components/layouts/header/header-components/02-base'
-export {Bottom} from '../components/layouts/header/header-components/03-bottom'
+export {Top} from './layouts/header/header-components/top'
+export {Base} from './layouts/header/header-components/base'
+export {Bottom} from './layouts/header/header-components/bottom'
+
+// Spacer
+export { Spacer } from "./layouts/spacer";
+
+// Catalog page
+export {TopActions} from './sections/catalog/top-actions'
+export {Products} from './sections/catalog/products'
+export {Pagination} from './sections/catalog/pagination'
+
+// Details page
+export {DetailBreadcrump} from './sections/details/breadcrump'
+export {DetailedProduct} from './sections/details/detailed-product'
+export {DetailedDescription} from './sections/details/description'
+export {WithLikeProduct} from './sections/details/with-like-product'
+export {Recommendation} from './sections/details/recommendation'
+
+// Consumables page
+export {ConsumablesBreadcrump} from './sections/consumables/breadcrump'
+export {ConsumablesConsumables} from './sections/consumables/consumables'
+export {ConsumablesDescription} from './sections/consumables/consumables-description'
+export {ConsumablesRecommendation} from './sections/consumables/consumables-recommendation'
+
