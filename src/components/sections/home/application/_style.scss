@@ -7,6 +7,19 @@
     background-color: #0F415A;
     padding-left: 48px;
 
+    &:hover{
+        cursor: pointer;
+
+        Button{
+            cursor: pointer;
+            background-color: inherit;
+            color: white;
+            box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 25px 0px;
+        }
+
+        
+    }
+
     .text {
         display: flex;
         align-items: center;
@@ -37,5 +50,7 @@
         border-radius: 20px;
         border: 1px solid white;
         background-color: #0F415A;
+
+        
     }
 }

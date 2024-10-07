@@ -1,0 +1,153 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #F3FAFC;
+
+
+    .carousel-slide-wrapper {
+        width: 1330px;
+        overflow: hidden;
+
+        .carousel-slide {
+            display: flex;
+            transition: transform 0.5s ease-in-out; // Silliq burilish effektini qo'shdik
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+  
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        padding-top: 26px;
+        padding-bottom: 21px;
+        gap: 31px;
+
+        .caruselbtn {
+            position: absolute;
+            top: 93%;
+            padding: 5px;
+            left: 30px;
+            cursor: pointer;
+            transform: translateY(-50%);
+
+            .prev-btn {
+                left: 5px; 
+                border: 1px solid transparent;
+                padding: 5px;
+                border-radius: 5px;
+                &:hover {
+                    border: 1px solid  rgb(0, 0, 0);
+
+                }
+            }
+    
+        
+            .next-btn {
+                left: 0px;
+                border: 1px solid transparent;
+                padding: 5px;
+                border-radius: 5px;
+                &:hover {
+                    border: 1px solid  rgb(0, 0, 0);
+                }
+            }
+
+          
+        }
+    
+        
+
+        a {
+            text-decoration: none;
+            color: #1C2D38;
+            font-size: 14px;
+            font-size: 16px;
+            font-weight: 500;
+            position: relative;
+
+            &.active {
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 2px;
+                    background-color: red; // faqat active holatda chiziq chiziladi
+                }
+            }
+
+
+        }
+    }
+
+    .navbar {
+
+        .controls {
+            display: flex;
+            padding-left: 55px;
+            gap: 15px;
+
+            .prev {
+                font-size: 20px;
+                border: 1px solid transparent;
+
+                &:hover {
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 0;
+                    margin: 0;
+
+                }
+            }
+
+            .next {
+                font-size: 20px;
+                border: 1px solid transparent;
+
+                &:hover {
+                    position: relative;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+
+                }
+            }
+        }
+
+        // &__list {
+        //     list-style: none;
+        //     display: flex;
+        //     gap: 31px;
+        // }
+
+        // &__item {
+        //     list-style: none;
+        // }
+
+        // &__link {
+        //     text-decoration: none;
+        //     color: #1C2D38;
+        //     font-size: 14px;
+        //     font-size: 16px;
+        //     font-weight: 500;
+        //     position: relative;
+
+        //     &:active {
+        //         color: #000;
+        //         border-bottom: 2px solid red;
+
+
+        //     }
+        // }
+    }
+}

@@ -13,6 +13,22 @@ import Card12 from '../assets/images/turbojet.png'
 
 
 
+import CaruselIMg from "../assets/Img/CaruselImg_1.png";
+import CaruselImg2 from "../assets/Img/CaruselImg_2.png";
+import CaruselImg3 from "../assets/Img/CaruselImg_3.png";
+import CaruselImg4 from "../assets/Img/CaruselImg_4.png";
+import CaruselImg5 from "../assets/Img/CaruselImg_5.png";
+
+export const CoruselDb = [
+  { id: 1, src: CaruselIMg, label: 'Доставка в ЕАЭС' },
+  { id: 2, src: CaruselImg2, label: 'Элементы подвески' },
+  { id: 3, src: CaruselImg3, label: 'MEAN WELL // XLG' },
+  { id: 4, src: CaruselImg4, label: 'Кабельные тестеры Noyafa' },
+  { id: 5, src: CaruselImg5, label: 'Электролитические конденсаторы jb' },
+];
+
+
+
 export const hitsData = {
     title: "Хиты продаж",
     products: [
