@@ -10,9 +10,8 @@ export {PopCategories} from "./sections/home/pop-categories"
 export {Bestsellers} from "./sections/home/bestsellers"
 export {BestOffers} from "./sections/home/best-offers"
 export {GainingPopularity} from "./sections/home/gaining-popularity"
+export {NewsVideos} from './sections/home/news-videos'
 export {Distributions} from "./sections/home/distributions"
-export {Video} from "./sections/home/video"
-export {News} from "./sections/home/news"
 export {Description} from "./sections/home/description"
 // Header Components
 export {Top} from './layouts/header/header-components/top'

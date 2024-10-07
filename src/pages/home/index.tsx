@@ -7,8 +7,7 @@ import {
   BestOffers,
   GainingPopularity,
   Distributions,
-  Video,
-  News,
+  NewsVideos,
   Description,
   Spacer
 } from "../../components";
@@ -24,8 +23,7 @@ export const Home: React.FC = () => {
     <BestOffers />
     <GainingPopularity />
     <Distributions />
-    <Video />
-    <News />
+    <NewsVideos/>
     <Description />
   </>;
 };
