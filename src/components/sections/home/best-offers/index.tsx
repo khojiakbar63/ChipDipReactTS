@@ -2,6 +2,7 @@ import React from 'react';
 import { bestOffersData } from '../../../../mocks';
 import { Container, Section } from "../../../../components";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+import line from '../../../../assets/images/line.svg'
 import './_style.scss';
 
 export const BestOffers: React.FC = () => {
@@ -26,6 +27,9 @@ export const BestOffers: React.FC = () => {
                 </div>
                 <div className="card-footer">
                   {product.price && <p className="card-price">{product.price}</p>}
+                </div>
+                <div className="line">
+                  <img src={line} alt="" />
                 </div>
               </div>
             ))}

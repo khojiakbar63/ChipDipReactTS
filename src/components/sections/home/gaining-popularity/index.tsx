@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Section } from "../../../../components";
 import { popularData } from "../../../../mocks";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+import line from "../../../../assets/images/line.svg"
 import './_style.scss'
 
 
@@ -28,6 +29,9 @@ export const GainingPopularity: React.FC = () => {
                 </div>
                 <div className="card-footer">
                   {product.price && <p className="card-price">{product.price}</p>}
+                </div>
+                <div className="line">
+                  <img src={line} alt="" />
                 </div>
               </div>
             ))}
