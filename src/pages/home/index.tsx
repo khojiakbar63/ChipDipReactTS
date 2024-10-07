@@ -9,7 +9,7 @@ import {
   Distributions,
   NewsVideos,
   Description,
-  Spacer
+  Spacer,
 } from "../../components";
 import "./_style.scss";
 

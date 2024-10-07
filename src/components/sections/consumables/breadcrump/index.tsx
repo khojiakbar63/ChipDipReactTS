@@ -1,20 +1,18 @@
 import React from "react";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Image } from "@chakra-ui/react";
+import B_right from "../../../../assets/icons/b-right.svg"
 import "./_style.scss";
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/react";
+
 export const ConsumablesBreadcrump: React.FC = () => {
   return (
-    <Breadcrumb fontWeight="medium" fontSize="sm">
-      <BreadcrumbItem>
-        <BreadcrumbLink href="#">Home</BreadcrumbLink>
-      </BreadcrumbItem>
+    <Breadcrumb separator={<Image src={B_right} />} className="bread" fontWeight="medium" fontSize="sm">
+    <BreadcrumbItem className="bread--item">
+      <BreadcrumbLink className="bread--item-link" href="#">Главная</BreadcrumbLink>
+    </BreadcrumbItem>
 
-      <BreadcrumbItem>
-        <BreadcrumbLink href="#">About</BreadcrumbLink>
-      </BreadcrumbItem>
-
-      <BreadcrumbItem isCurrentPage>
-        <BreadcrumbLink href="#">Current</BreadcrumbLink>
-      </BreadcrumbItem>
-    </Breadcrumb>
+    <BreadcrumbItem className="bread--item" isCurrentPage>
+      <BreadcrumbLink className="bread--item-link" href="#">Расходные материалы</BreadcrumbLink>
+    </BreadcrumbItem>
+  </Breadcrumb>
   );
 };

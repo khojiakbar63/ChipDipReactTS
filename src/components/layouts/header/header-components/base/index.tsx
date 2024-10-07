@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Box, Image, Flex, Text } from "@chakra-ui/react";
 import Logo from "../../../../../../public/vite.svg";
 import Location from "../../../../../assets/icons/location.svg";
@@ -14,7 +14,9 @@ export const Base: React.FC = () => {
   return (
     <Box className="base">
       <Flex className="base--left" gap={"32px"} alignItems={"center"}>
-        <Image className="base--left-logo" src={Logo} alt="Logo" />
+        <NavLink to={'/'}>
+           <Image className="base--left-logo" src={Logo} alt="Logo" />
+        </NavLink>
         <Box className="base--left--wrapper">
           <Flex className="base--left--wrapper--location">
             <Image
@@ -35,19 +37,19 @@ export const Base: React.FC = () => {
           <Image src={User} alt="User" />
           <Text className="base--right--wrapper-text">Вход</Text>
         </Box>
-        <Box className="base--right--wrapper">
+        <NavLink to={'/details'} className="base--right--wrapper">
           <Image src={Order} alt="Order" />
           <Text className="base--right--wrapper-text">Статус заказа</Text>
-        </Box>
-        <Box className="base--right--wrapper">
+        </NavLink>
+        <NavLink to={'/catalog'} className="base--right--wrapper">
           <Image src={Bom} alt="Bom" />
           <Text className="base--right--wrapper-text">BOM</Text>
-        </Box>
-        <Box className="base--right--wrapper">
+        </NavLink>
+        <NavLink to={'/consumables'} className="base--right--wrapper">
           <Text className="counter">0</Text>
           <Image src={Cart} alt="Cart" />
           <Text className="base--right--wrapper-text">Корзина</Text>
-        </Box>
+        </NavLink>
       </Flex>
     </Box>
   );
