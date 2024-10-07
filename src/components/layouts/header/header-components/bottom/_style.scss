@@ -9,8 +9,11 @@ $ABD: #b4babd;
 .bottom {
   display: flex;
   position: sticky !important;
-  bottom: 0;
-  z-index: 100;
+  top: 0 !important;
+  position: -webkit-sticky;
+  z-index: 10000;
+
+
 
   &--btn {
     min-width: 240.72px;

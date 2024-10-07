@@ -10,11 +10,13 @@ import {
   Video,
   News,
   Description,
+  Spacer
 } from "../../components";
 import "./_style.scss";
 
 export const Home: React.FC = () => {
   return <> 
+  <Spacer className='h-40'/>
     <Hero />
     <Application />
     <PopCategories />
