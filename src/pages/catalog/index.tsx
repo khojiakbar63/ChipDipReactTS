@@ -19,7 +19,7 @@ export const Catalog: React.FC = () => {
         <Breadcrump />
         <Spacer className="h-23" />
         <TopActions />
-        <Spacer className="h-23" />
+        <Spacer className="h-20" />
         <Flex>
           <Aside />
           <Products />

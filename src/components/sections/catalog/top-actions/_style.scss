@@ -1,0 +1,132 @@
+$A677: #666677;
+$D38: #1c2d38;
+$Yellow: #fff6d8;
+$D9F: #9d9d9f;
+$ABD: #b4babd;
+
+.top_actions {
+  &--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 46px;
+      color: #000;
+      &-count {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: $A677;
+        display: inline-block;
+      }
+    }
+    &--icons {
+      gap: 19.39px;
+      &-icon {
+        height: 26px;
+      }
+    }
+  }
+  &--btns {
+    margin-top: 31px;
+    margin-bottom: 34px;
+    gap: 10.39px;
+    &-btn {
+      border: 1px solid $D38;
+      padding: 7px 10px;
+      border-radius: 50%;
+      color: $D38;
+      background: #fff !important;
+      transition: all 0.1s ease;
+      &:hover {
+        border: 1px solid red;
+        color: red;
+      }
+    }
+  }
+  &--links {
+    display: flex;
+    align-items: center;
+    &-link {
+      color: $D38 !important;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 13px;
+      padding: 5px 9px;
+      border-radius: 12px;
+      transition: all 0.2s ease;
+      
+    }
+    &-filter {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 13px;
+      margin-right: 16px;
+    }
+  }
+  &--actions {
+    display: flex;
+    align-items: center;
+    gap: 18.39px;
+    &-input {
+      &-wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &-input {
+          min-width: 350px;
+          padding-left: 9px;
+          border: 1px solid $D9F;
+          border-radius: 0px;
+          border: 1px solid $D9F;
+          background: #fff;
+          color: $ABD;
+          height: 32px;
+
+          &::placeholder {
+            color: $ABD;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17.7px;
+          }
+          &:focus {
+            outline: none;
+          }
+        }
+        &-close {
+          font-size: 16px;
+          position: absolute;
+          right: 8px;
+          top: 50%;
+          color: $D38;
+          transform: translateY(-50%);
+          cursor: pointer;
+        }
+      }
+    }
+    &-btn {
+        height: 32px;
+      border: 1px solid $D38;
+      padding: 7px 13px;
+      border-radius: 3px;
+      color: $D38;
+      background: #fff !important;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 17.7px;
+      transition: all 0.2s ease;
+      &:hover {
+        color: $A677;
+        border: 1px solid $A677;
+      }
+    }
+  }
+}
+
+.current {
+  color: #000;
+  background: $Yellow;
+}
