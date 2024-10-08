@@ -20,7 +20,7 @@ export const Catalog: React.FC = () => {
         <Spacer className="h-23" />
         <TopActions />
         <Spacer className="h-20" />
-        <Flex>
+        <Flex gap={'28px'}>
           <Aside />
           <Products />
         </Flex>

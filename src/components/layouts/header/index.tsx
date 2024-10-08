@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
     <header className="header">
       <Container>
         <Top />
-        <Box className="wrapper">
+        <Box className="h-wrapper">
           <Base />
           <Bottom />
         </Box>

@@ -19,6 +19,18 @@ import CaruselImg3 from "../assets/Img/CaruselImg_3.png";
 import CaruselImg4 from "../assets/Img/CaruselImg_4.png";
 import CaruselImg5 from "../assets/Img/CaruselImg_5.png";
 
+
+// Catlog Products
+import CatlogP1 from "../assets/images/catlog-p-1.png";
+import CatlogP2 from "../assets/images/catlog-p-2.png";
+import CatlogP3 from "../assets/images/catlog-p-3.png";
+import CatlogP4 from "../assets/images/catlog-p-4.png";
+
+
+
+
+
+
 export const CoruselDb = [
   { id: 1, src: CaruselIMg, label: 'Доставка в ЕАЭС' },
   { id: 2, src: CaruselImg2, label: 'Элементы подвески' },
@@ -154,3 +166,338 @@ export const hitsData = {
     ],
   };
   
+
+
+  export const Catalog_Products = [
+    {
+      id: 1,
+      image: CatlogP1,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+
+    {
+      id: 2,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 3,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 4,
+      image: CatlogP1,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 5,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 6,
+      image: CatlogP3,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 7,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 8,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 9,
+      image: CatlogP4,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 10,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 11,
+      image: CatlogP1,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 12,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 13,
+      image: CatlogP1,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 14,
+      image: CatlogP4,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 15,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 16,
+      image: CatlogP3,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 17,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 18,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 19,
+      image: CatlogP2,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    {
+      id: 20,
+      image: CatlogP4,
+      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+      brand: 'ON Semiconductor',
+      series: 'fps',
+      tip: 'flyback',
+      output: 'нет',
+      switch: 'Есть',
+      max_volt: '800',  
+      nom_power: '190',
+      max_converter: '66',
+      max_duty: '55',
+      operating_temp:  '-25…+85',
+      corpus: 'to-220f-5, formed'
+    },
+    
+  ]
+
+
+
+
+
+
+
+
+

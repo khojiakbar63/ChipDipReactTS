@@ -1,0 +1,72 @@
+$E5: #e5e5e5;
+$B7: #337ab7;
+$C5D: #5c5c5d;
+$D9F: #9d9d9f;
+$D38: #1c2d38;
+$E613: #e30613;
+$Redb16: #b90b16;
+$ABD: #b4babd;
+$FA: #fafafa;
+
+.catalog {
+  width: 100%;
+
+  &--products {
+    &--product {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid $E5;
+      &:last-child {
+        border: none;
+      }
+      &--description {
+        display: flex;
+        padding: 15.5px;
+        width: 51%;
+        &--text {
+          width: 526.41px;
+          &--title {
+            color: $B7;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 2px;
+          }
+          &--context {
+            padding-left: 6.5px;
+            padding-top: 1px;
+            &-item {
+              display: flex;
+              align-items: center;
+              gap: 4px;
+
+              font-weight: 400;
+              font-size: 13px;
+              line-height: 18.2px;
+              color: $C5D;
+              &-info {
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 18.2px;
+                color: $D38;
+              }
+            }
+          }
+        }
+      }
+
+      &--actions {
+        margin-top: 7px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 49%;
+        &-image {
+          width: 85px;
+          height: 75px;
+        }
+      }
+    }
+  }
+}

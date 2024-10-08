@@ -3,7 +3,8 @@ $D38: #1c2d38;
 $Yellow: #fff6d8;
 $D9F: #9d9d9f;
 $ABD: #b4babd;
-
+$A613: #e30613;
+$A619: #ae0510;
 .top_actions {
   &--wrapper {
     display: flex;
@@ -41,8 +42,8 @@ $ABD: #b4babd;
       background: #fff !important;
       transition: all 0.1s ease;
       &:hover {
-        border: 1px solid red;
-        color: red;
+        border: 1px solid $A613;
+        color: $A613;
       }
     }
   }
@@ -57,7 +58,6 @@ $ABD: #b4babd;
       padding: 5px 9px;
       border-radius: 12px;
       transition: all 0.2s ease;
-      
     }
     &-filter {
       font-weight: 400;
@@ -108,7 +108,7 @@ $ABD: #b4babd;
       }
     }
     &-btn {
-        height: 32px;
+      height: 32px;
       border: 1px solid $D38;
       padding: 7px 13px;
       border-radius: 3px;
@@ -119,8 +119,12 @@ $ABD: #b4babd;
       line-height: 17.7px;
       transition: all 0.2s ease;
       &:hover {
-        color: $A677;
-        border: 1px solid $A677;
+        color: $A613;
+        border: 1px solid $A613;
+      }
+      &:active {
+        color: $A619;
+        border: 1px solid $A619;
       }
     }
   }

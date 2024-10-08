@@ -6,7 +6,7 @@ import { IoMdClose } from "react-icons/io";
 import FX from "../../../../assets/icons/fx.svg";
 import Cubes from "../../../../assets/icons/cubes.svg";
 import "./_style.scss";
-
+ 
 export const TopActions: React.FC = () => {
   return (
     <Box className="top_actions">
@@ -71,13 +71,16 @@ export const TopActions: React.FC = () => {
         </Flex>
 
         <Flex className="top_actions--actions">
-          <label className="top_actions--actions-input-wrapper" htmlFor="search">
+          <label
+            className="top_actions--actions-input-wrapper"
+            htmlFor="search"
+          >
             <input
               id="search"
               className="top_actions--actions-input-wrapper-input"
               placeholder="Поиск в группе"
             />
-            <IoMdClose  className="top_actions--actions-input-wrapper-close" />
+            <IoMdClose className="top_actions--actions-input-wrapper-close" />
           </label>
           <button className="top_actions--actions-btn">Найти</button>
         </Flex>
