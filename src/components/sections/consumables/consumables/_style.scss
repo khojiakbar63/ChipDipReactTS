@@ -1,0 +1,86 @@
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .text-wrap{
+    display: flex;
+    gap: 3px;
+    h1{
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    p{
+      margin-top: 30px;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  
+}
+
+.cards-container {
+  display: flex;
+  
+  padding-bottom: 90px;
+
+  .left-column, .right-column {
+    width: 50%; /* Chap va o'ng ustunlarga teng bo'lgan kenglik */
+  }
+}
+
+.card {
+  position: relative;
+  align-items: center;
+
+  .card-img {
+    position: absolute;
+    top: 55px;
+
+
+  }
+
+  .card-content {
+    position: relative;
+    top: 49px;
+    left: 100px;
+    padding-bottom: 30px;
+
+    .card-titles {
+      display: flex;
+
+      .card-title {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .card-num {
+        margin-top: 10px;
+        margin-left: 4px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #666677;
+        margin-bottom: 7px;
+      }
+
+    }
+
+  }
+
+  .card-links {
+    display: flex;
+    flex-direction: column;
+
+    .card-link {
+      color: #337AB7;
+      text-decoration: none;
+      margin-bottom: 5px;
+
+      &:hover {
+        color: #0056b3;
+      }
+    }
+  }
+}
