@@ -1,0 +1,136 @@
+$E5: #e5e5e5;
+$B7: #337ab7;
+$C5D: #5c5c5d;
+$D9F: #9d9d9f;
+$D38: #1c2d38;
+$E613: #e30613;
+$Redb16: #b90b16;
+$A619: #ae0510;
+$ABD: #b4babd;
+$FA: #fafafa;
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--wrapper {
+      margin-right: 10px;
+      &-info {
+        color: $C5D;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14.3px;
+      }
+      &-sub {
+        color: $C5D;
+        font-weight: 400;
+        font-size: 6.02px;
+        line-height: 14.3px;
+      }
+    }
+    &--cart_btn {
+      background-color: $E613;
+      color: #fff;
+      border: 1px solid $E613;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 17.7px;
+      padding: 7px 13px;
+      transition: all 0.1s ease-in-out;
+      &:hover {
+        background-color: $Redb16;
+      }
+      &:active {
+        background-color: $A619;
+      }
+    }
+
+    &--total {
+      display: flex;
+      align-items: center;
+      gap: 6.18px;
+      &-price {
+        display: flex;
+
+        &-number {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 21.79px;
+          color: #000;
+        }
+        &-currency {
+          font-weight: 700;
+          font-size: 10.25px;
+          line-height: 11.79px;
+          color: #000;
+          margin-top: 3px;
+        }
+      }
+      &-counter {
+        &--wrapper {
+          border-radius: 3px;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &-minus {
+            background-color: $FA;
+            border: 1px solid $D9F;
+            height: 32px;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+            padding: 4px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 17.7px;
+            color: $ABD;
+            transition: all 0.1s ease-in-out;
+            &:hover {
+              color: $C5D;
+              border-color: $C5D;
+            }
+            &:active {
+              font-weight: 700;
+              color: $D38;
+              border-color: $D38;
+            }
+          }
+          &-indicator {
+            border-top: 1px solid $D9F;
+            border-bottom: 1px solid $D9F;
+            width: 36px;
+            height: 32px;
+            display: grid;
+            place-content: center;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 17.7px;
+            color: #000;
+          }
+          &-plus {
+            background-color: $FA;
+            border: 1px solid $D9F;
+            height: 32px;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 17.7px;
+            color: $ABD;
+            padding: 4px;
+            transition: all 0.1s ease-in-out;
+            &:hover {
+              color: $C5D;
+              border-color: $C5D;
+            }
+            &:active {
+              font-weight: 700;
+              color: $D38;
+              border-color: $D38;
+            }
+          }
+        }
+      }
+    }
+  }
