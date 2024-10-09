@@ -11,9 +11,15 @@
   
     .toggle-btn {
       color: #337AB7;
-      cursor: pointer;
-      border-bottom: 1px transparent dashed;
-
+      
+        .icon-text{
+          cursor: pointer;
+          border-bottom: 1px transparent dashed;
+          &:hover {
+            text-underline-offset: 6px; 
+            border-color:#5ea1a3 ;
+          }
+        }
       .icon-wrap{
         display: flex;
         align-items: center;
@@ -22,14 +28,7 @@
 
       }
 
-      &:hover {
-        text-underline-offset: 6px; 
-        border-color:#5ea1a3 ;
-        
-        
-        
-       
-      }
+    
     }
   }
   
