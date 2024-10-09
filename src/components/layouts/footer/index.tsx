@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "../../../components";
 import { FooterBottom, Contacts, Lists } from "./footer-components";
-import { Box, Flex, Image, List, ListItem, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 import Visa from "../../../assets/icons/visa.svg";
@@ -15,7 +15,7 @@ import VK from "../../../assets/icons/vk.svg";
 import YouTube from "../../../assets/icons/youtube.svg";
 import Telegram from "../../../assets/icons/tg.svg";
 import R from "../../../assets/icons/r.svg";
-import Yandeks from "../../../assets/icons/yandeks.svg";
+
 
 import "./_style.scss";
 
@@ -23,17 +23,17 @@ export const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <Container>
-        <Box className="main-wrapper">
+        <Box className="main-f-wrapper">
           
-          <Flex className="footer--wrapper">
+          <Flex className="footer--f-wrapper">
             <Lists/>
             <Contacts />
           </Flex>
 
-          <Flex className="wrapper">
-            <Box className="wrapper--left">
-              <Text className="wrapper--left-title">Принимаем к оплате</Text>
-              <Flex className="wrapper--left--icons">
+          <Flex className="f-wrapper">
+            <Box className="f-wrapper--left">
+              <Text className="f-wrapper--left-title">Принимаем к оплате</Text>
+              <Flex className="f-wrapper--left--icons">
                 <Image src={Visa} alt="visa" />
                 <Image src={TwoCircle} alt="two-circle" />
                 <Image src={Maestro} alt="maestro" />
@@ -44,19 +44,19 @@ export const Footer: React.FC = () => {
               </Flex>
             </Box>
 
-            <Box className="wrapper-right">
-              <Text className="wrapper--right-title">CHIPDIP в соцсетях</Text>
-              <Flex className="wrapper--right--icons">
-                <Link className="wrapper--right-icon" to={"#"}>
+            <Box className="f-wrapper-right">
+              <Text className="f-wrapper--right-title">CHIPDIP в соцсетях</Text>
+              <Flex className="f-wrapper--right--icons">
+                <Link className="f-wrapper--right-icon" to={"#"}>
                   <Image src={VK} alt="vk" />
                 </Link>
-                <Link className="wrapper--right-icon" to={"#"}>
+                <Link className="f-wrapper--right-icon" to={"#"}>
                   <Image src={YouTube} alt="youtube" />
                 </Link>
-                <Link className="wrapper--right-icon" to={"#"}>
+                <Link className="f-wrapper--right-icon" to={"#"}>
                   <Image src={Telegram} alt="tg" />
                 </Link>
-                <Link className="wrapper--right-icon" to={"#"}>
+                <Link className="f-wrapper--right-icon" to={"#"}>
                   <Image src={R} alt="r" />
                 </Link>
               </Flex>

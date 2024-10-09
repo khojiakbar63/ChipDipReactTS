@@ -10,7 +10,7 @@ import {
 import Catalog from "../../../../../assets/icons/catalog.svg";
 import Search from "../../../../../assets/icons/search.svg";
 import "./_style.scss";
-
+  
 export const Bottom: React.FC = () => {
   return (
     <Box className="bottom">
