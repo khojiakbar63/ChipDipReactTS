@@ -76,7 +76,7 @@ export const data = [
   },
 
   {
-    id:2,
+    id: 2,
     img: Материалы,
     title: "Материалы для пайки",
     numbers: 5125,
@@ -100,7 +100,7 @@ export const data = [
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
       { id: 4, url: "https://example4.com", text: "Паяльные пасты" },
-     
+
     ],
   },
 
@@ -113,8 +113,8 @@ export const data = [
       { id: 1, url: "https://example1.com", text: "Припои с канифолью" },
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
-     
-  
+
+
     ],
   },
 
@@ -127,7 +127,7 @@ export const data = [
       { id: 1, url: "https://example1.com", text: "Припои с канифолью" },
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
-     
+
     ],
   },
 
@@ -140,8 +140,8 @@ export const data = [
       { id: 1, url: "https://example1.com", text: "Припои с канифолью" },
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
-     
-    
+
+
     ],
   },
 
@@ -177,8 +177,6 @@ export const data = [
       { id: 1, url: "https://example1.com", text: "Припои с канифолью" },
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
-     
-  
     ],
   },
 
@@ -191,7 +189,7 @@ export const data = [
       { id: 1, url: "https://example1.com", text: "Припои с канифолью" },
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
-     
+
     ],
   },
 
@@ -204,8 +202,8 @@ export const data = [
       { id: 1, url: "https://example1.com", text: "Припои с канифолью" },
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
-     
-    
+
+
     ],
   },
 
@@ -264,135 +262,11 @@ export const previewText = text.slice(0, 4);
 // ////////////////////////////// teaxt-end ////////////////////////////////////////////////////
 
 export const hitsData = {
-    title: "Хиты продаж",
-    products: [
-      {
-        id: 1,
-        brand: "СОЭКС",
-        name: "Эковизор F4, Многофункциональный прибор 4 в 1",
-        price: "14 990 р.",
-        imageUrl: Card1,
-      },
-      {
-        id: 2,
-        brand: "PROSKIT",
-        name: "6PK-301H, Кримпер для обжима изолированных клемм 4.0-6.0",
-        price: "4 350 р.",
-        imageUrl: Card2,
-      },
-      {
-        id: 3,
-        brand: "TESTO",
-        name: "Testo 750-3, Тестер напряжения (Госреестр РФ)",
-        price: "16 500 р.",
-        imageUrl: Card3,
-      },
-      {
-        id: 4,
-        brand: "ЗНАТОК",
-        name: "Конструктор электронный 'Знаток', 180 схем",
-        price: "4 180 р.",
-        imageUrl: Card4,
-      },
-      {
-        id: 5,
-        promoBrand: "PROMO",
-        promoName: "Самые популярные товары",
-        buttonText: "Перейти к выбору",
-        promoText: "Выбор наших покупателей",
-      },
-    ],
-  };
-  
-
-  export const bestOffersData = {
-    title: "Лучшие предложения",
-    products: [
-      {
-        id: 1,
-        brand: "ROBITON",
-        name: "Li16340/3.0, Аккумулятор Li-ion, 550мАч, 3.0В (40.0*37мм)",
-        price: "660 р.",
-        imageUrl: Card5,
-      },
-      {
-        id: 2,
-        brand: "LINQYA",
-        name: "L-UTP4-5 Outdoor, Витая пара, 4 пары Cat5e",
-        price: "64 р.",
-        imageUrl: Card6,
-      },
-      {
-        id: 3,
-        brand: "NAVIGATOR",
-        name: "Элемент питания Navigator 94 762 NBT-NS-6F22-SH1",
-        price: "50 р.",
-        imageUrl: Card7,
-      },
-      {
-        id: 4,
-        brand: "КИТАЙ",
-        name: "ZD-81N, Паяльник-пистолет импульсный, 220В, 30-130Вт",
-        price: "540 р.",
-        imageUrl: Card8,
-      },
-      {
-        id: 5,
-        promoBrand: "",
-        promoName: "Выгодное предложение",
-        buttonText: "Перейти к выбору",
-        promoText: "Узнайте о выгодных предложениях и специальных ценах!",
-      },
-    ],
-  };
-  
-
-  export const popularData = {
-    title: "Набирают популярность",
-    products: [
-      {
-        id: 1,
-        brand: "MASTECH",
-        name: "MS6592P, Измеритель температуры, пирометр",
-        price: "1 350 р.",
-        imageUrl: Card9,
-      },
-      {
-        id: 2,
-        brand: "СЭКС",
-        name: "К78-17Е, 50 мкФ, 450 В (провод +болт), Конденсатор грузовой",
-        price: "510 р.",
-        imageUrl: Card10,
-      },
-      {
-        id: 3,
-        brand: "СИЛОВЫЕ ДИОДЫ",
-        name: "TC142-80-12, Симистор силовой 80А 1200В",
-        price: "2 780 р.",
-        imageUrl: Card11,
-      },
-      {
-        id: 4,
-        brand: "TURBOJET",
-        name: "B1245, Кисточка для флюса в упаковке по 5 шт",
-        price: "400 р.",
-        imageUrl: Card12,
-      },
-      {
-        id: 5,
-        promoBrand: "PROMO",
-        promoName: "Успейте купить первыми",
-        buttonText: "Перейти к выбору",
-        promoText: "Новинки, которые пользуются повышенным спросом",
-      },
-    ],
-  };
-  
-
-
-  export const Catalog_Products = [
+  title: "Хиты продаж",
+  products: [
     {
       id: 1,
+
       image: CatlogP1,
       title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
       brand: 'ON Semiconductor',
@@ -406,11 +280,16 @@ export const hitsData = {
       max_duty: '55',
       phone: "9000676868",
       operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
-    },
+      corpus: 'to-220f-5, formed',
+      brand: "СОЭКС",
+      name: "Эковизор F4, Многофункциональный прибор 4 в 1",
+      price: "14 990 р.",
+      imageUrl: Card1,
 
+    },
     {
       id: 2,
+
       image: CatlogP2,
       title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
       brand: 'ON Semiconductor',
@@ -556,170 +435,534 @@ export const hitsData = {
       max_converter: '66',
       max_duty: '55',
       operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      corpus: 'to-220f-5, formed',
+      brand: "PROSKIT",
+      name: "6PK-301H, Кримпер для обжима изолированных клемм 4.0-6.0",
+      price: "4 350 р.",
+      imageUrl: Card2,
     },
     {
-      id: 11,
-      image: CatlogP1,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 3,
+      brand: "TESTO",
+      name: "Testo 750-3, Тестер напряжения (Госреестр РФ)",
+      price: "16 500 р.",
+      imageUrl: Card3,
     },
     {
-      id: 12,
-      image: CatlogP2,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 4,
+      brand: "ЗНАТОК",
+      name: "Конструктор электронный 'Знаток', 180 схем",
+      price: "4 180 р.",
+      imageUrl: Card4,
     },
     {
-      id: 13,
-      image: CatlogP1,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 5,
+      promoBrand: "PROMO",
+      promoName: "Самые популярные товары",
+      buttonText: "Перейти к выбору",
+      promoText: "Выбор наших покупателей",
+    },
+  ],
+};
+
+
+export const bestOffersData = {
+  title: "Лучшие предложения",
+  products: [
+    {
+      id: 1,
+      brand: "ROBITON",
+      name: "Li16340/3.0, Аккумулятор Li-ion, 550мАч, 3.0В (40.0*37мм)",
+      price: "660 р.",
+      imageUrl: Card5,
     },
     {
-      id: 14,
-      image: CatlogP4,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 2,
+      brand: "LINQYA",
+      name: "L-UTP4-5 Outdoor, Витая пара, 4 пары Cat5e",
+      price: "64 р.",
+      imageUrl: Card6,
     },
     {
-      id: 15,
-      image: CatlogP2,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 3,
+      brand: "NAVIGATOR",
+      name: "Элемент питания Navigator 94 762 NBT-NS-6F22-SH1",
+      price: "50 р.",
+      imageUrl: Card7,
     },
     {
-      id: 16,
-      image: CatlogP3,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 4,
+      brand: "КИТАЙ",
+      name: "ZD-81N, Паяльник-пистолет импульсный, 220В, 30-130Вт",
+      price: "540 р.",
+      imageUrl: Card8,
     },
     {
-      id: 17,
-      image: CatlogP2,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 5,
+      promoBrand: "",
+      promoName: "Выгодное предложение",
+      buttonText: "Перейти к выбору",
+      promoText: "Узнайте о выгодных предложениях и специальных ценах!",
+    },
+  ],
+};
+
+
+export const popularData = {
+  title: "Набирают популярность",
+  products: [
+    {
+      id: 1,
+      brand: "MASTECH",
+      name: "MS6592P, Измеритель температуры, пирометр",
+      price: "1 350 р.",
+      imageUrl: Card9,
     },
     {
-      id: 18,
-      image: CatlogP2,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 2,
+      brand: "СЭКС",
+      name: "К78-17Е, 50 мкФ, 450 В (провод +болт), Конденсатор грузовой",
+      price: "510 р.",
+      imageUrl: Card10,
     },
     {
-      id: 19,
-      image: CatlogP2,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 3,
+      brand: "СИЛОВЫЕ ДИОДЫ",
+      name: "TC142-80-12, Симистор силовой 80А 1200В",
+      price: "2 780 р.",
+      imageUrl: Card11,
     },
     {
-      id: 20,
-      image: CatlogP4,
-      title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
-      brand: 'ON Semiconductor',
-      series: 'fps',
-      tip: 'flyback',
-      output: 'нет',
-      switch: 'Есть',
-      max_volt: '800',  
-      nom_power: '190',
-      max_converter: '66',
-      max_duty: '55',
-      operating_temp:  '-25…+85',
-      corpus: 'to-220f-5, formed'
+      id: 4,
+      brand: "TURBOJET",
+      name: "B1245, Кисточка для флюса в упаковке по 5 шт",
+      price: "400 р.",
+      imageUrl: Card12,
     },
-    
-  ]
+    {
+      id: 5,
+      promoBrand: "PROMO",
+      promoName: "Успейте купить первыми",
+      buttonText: "Перейти к выбору",
+      promoText: "Новинки, которые пользуются повышенным спросом",
+    },
+  ],
+};
+
+
+
+export const Catalog_Products = [
+  {
+    id: 1,
+    image: CatlogP1,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+
+  {
+    id: 2,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 3,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 4,
+    image: CatlogP1,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 5,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 6,
+    image: CatlogP3,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 7,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 8,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 9,
+    image: CatlogP4,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 10,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 11,
+    image: CatlogP1,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 12,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 13,
+    image: CatlogP1,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 14,
+    image: CatlogP4,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 15,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 16,
+    image: CatlogP3,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 17,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 18,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 19,
+    image: CatlogP2,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+  {
+    id: 20,
+    image: CatlogP4,
+    title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
+    brand: 'ON Semiconductor',
+    series: 'fps',
+    tip: 'flyback',
+    output: 'нет',
+    switch: 'Есть',
+    max_volt: '800',
+    nom_power: '190',
+    max_converter: '66',
+    max_duty: '55',
+    operating_temp: '-25…+85',
+    corpus: 'to-220f-5, formed'
+  },
+
+]
+
+import reco1 from '../assets/images/recoCard1.png'
+import reco2 from '../assets/images/recoCard2.png'
+import reco3 from '../assets/images/recoCard3.png'
+import reco4 from '../assets/images/recoCard4.png'
+import reco5 from '../assets/images/recoCard5.png'
+
+
+
+
+
+
+export const productRecommendations = [
+  {
+    id: 1,
+    name: "Оптопары прочие",
+    image: reco1,
+  },
+  {
+    id: 2,
+    name: "Диодные мосты",
+    image: reco2,
+  },
+  {
+    id: 3,
+    name: "Диоды быстродействующие",
+    image: reco3,
+  },
+  {
+    id: 4,
+    name: "Транзисторы полевые (FETs, MOSFETs)",
+    image: reco4,
+  },
+  {
+    id: 5,
+    name: "Ферритовые сердечники",
+    image: reco5,
+  },
+];
+
+
+import consu1 from '../assets/images/consu1.png'
+import consu2 from '../assets/images/consu2.png'
+import consu3 from '../assets/images/consu3.png'
+import consu4 from '../assets/images/consu4.png'
+import consu5 from '../assets/images/consu5.png'
+
+
+
+
+
+export const ConsumablesRecommendationData = [
+  {
+    id: 1,
+    name: "Пружинка проволока SS 3210Cr18Ni10Ti 0,8 10 м",
+    price: "410 руб.",
+    image: consu1,
+    vendor: "AB retail",
+  },
+  {
+    id: 2,
+    name: "CA 12 - COSMO CA 500.200 (20 гр.),Клей цианоакрилатный",
+    price: "370 руб.",
+    image: consu2,
+    vendor: "COSMOFEN",
+  },
+  {
+    id: 3,
+    name: "Мельхиор лист 0,3 х 100 х 300 мм",
+    price: "630 руб.",
+    image: consu3,
+    vendor: "AB retail",
+  },
+  {
+    id: 4,
+    name: "ТВ-40 4мм, Трубка ПВХ (кембрик) 1м",
+    price: "70 руб.",
+    image: consu4,
+    vendor: "Россия",
+  },
+  {
+    id: 5,
+    name: "Короб Т-11 бел/бур 675x90x62",
+    price: "34 руб.",
+    image: consu5,
+    vendor: "Россия",
+  },
+];
 
 
 
