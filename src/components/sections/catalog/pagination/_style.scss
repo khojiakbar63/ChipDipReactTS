@@ -1,0 +1,79 @@
+.paginatsiya {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  
+    .text {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 10px;
+  
+      .label {
+        font-weight: 700;
+        color: #000;
+        font-size: 13px;
+      }
+    }
+  
+    .pagination-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  
+      .page-selector, .items-per-page {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  
+    .ant-pagination {
+      .ant-pagination-item,
+      .ant-pagination-prev,
+      .ant-pagination-next {
+        border-radius: 4px;
+        color: #000;
+        background-color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+      }
+  
+      .ant-pagination-item-active {
+        background-color: #fff;
+        border-color: #000;
+        color: #000; 
+      }
+  
+      .ant-pagination-item:hover,
+      .ant-pagination-prev:hover,
+      .ant-pagination-next:hover {
+        border-color: #000;
+        color: #000;
+      }
+    }
+  
+    .radio-group {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+  
+      .ant-radio-button-wrapper {
+        background-color: #fff;
+        padding: 2px 10px;
+        border: none;
+        color: #000;
+  
+      }
+  
+      .ant-radio-button-wrapper-checked {
+        border-color: #000;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 6px;
+      }
+  
+    }
+  }
+  

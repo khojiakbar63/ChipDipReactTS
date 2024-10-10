@@ -1,0 +1,39 @@
+.product-list {
+    padding: 20px;
+    background-color: #fff;
+    border: 25px solid #F3F4F6;
+  
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+  
+    .product-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .product-card {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 10px;
+        background-color: #fff;
+  
+        .product-image {
+          width: 80px;
+          height: 80px;
+          object-fit: contain;
+          margin-bottom: 10px;
+        }
+  
+        .product-name {
+          font-size: 14px;
+          color: #007bff;
+          text-align: start;
+        }
+      }
+    }
+  }
+  

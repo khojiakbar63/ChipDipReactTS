@@ -5,7 +5,7 @@ import {
   Container,
   TopActions,
   Products,
-  Pagination,
+  CatalogPagination,
   Spacer,
 } from "../../components";
 import { Breadcrump } from "../../components/sections/catalog/breadcrump";
@@ -25,7 +25,7 @@ export const Catalog: React.FC = () => {
           <Products />
         </Flex>
         <Spacer className="h-23" />
-        <Pagination />
+        <CatalogPagination />
         <Spacer className="h-23" />
       </Container>
     </div>
