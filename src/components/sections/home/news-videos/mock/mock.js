@@ -1,12 +1,12 @@
 export const videosData = [
     {
-        bigVideo: "https://youtu.be/zc_mnYu47fI",
+        bigVideo: "https://www.youtube.com/embed/8r9gtdrcJjk",
         bigHours: "28:55",
         bigDescription: "#1 Гитарный процессор от SkyHawk или Большой Ликбез по SigmaStudio",
         miniFirst: "https://www.chipdip.ru/video/id003852901",
         miniFirstHourse: "13:53",
         miniFirstDescription: "AD1938 – высококачественный кодек",
-        miniSecond: "https://www.chipdip.ru/video/id005213639",
+        miniSecond: "https://www.youtube.com/embed/8r9gtdrcJjk",
         miniSecondHours: "30:28",
         miniSecondDesription: "Измерение характеристик цифровых аудио карт для Raspberry Pi: КНИ, АЧХ и Джиттер-тест."
     },
@@ -14,7 +14,7 @@ export const videosData = [
         bigVideo: "https://www.chipdip.ru/video/id022595402",
         bigHours: "13:45",
         bigDescription: "Reflex 2.0 Прошивка 1.2.1",
-        miniFirst: "https://www.chipdip.ru/video/id003848061",
+        miniFirst: "https://www.youtube.com/embed/8r9gtdrcJjk",
         miniFirstHourse: "19:03",
         miniFirstDescription: "Усилитель мощности класса D. Конструктор. TDA7498",
         miniSecond: "https://www.chipdip.ru/video/id013362317",
@@ -28,7 +28,7 @@ export const videosData = [
         miniFirst: "https://www.chipdip.ru/video/id004705572",
         miniFirstHourse: "19:03",
         miniFirstDescription: "ADAU1701 + AD1934",
-        miniSecond: "https://www.chipdip.ru/video/id005213639",
+        miniSecond: "https://www.youtube.com/embed/8r9gtdrcJjk",
         miniSecondHours: "17:07",
         miniSecondDesription: "Moode_volumio & HiFi-Pi2"
     },
@@ -39,7 +39,7 @@ export const videosData = [
         miniFirst: "https://www.chipdip.ru/video/id004705572",
         miniFirstHourse: "19:03",
         miniFirstDescription: "ADAU1701 + AD1934",
-        miniSecond: "https://www.chipdip.ru/video/id005213639",
+        miniSecond: "https://www.youtube.com/embed/8r9gtdrcJjk",
         miniSecondHours: "17:07",
         miniSecondDesription: "Moode_volumio & HiFi-Pi2"
     },
@@ -83,7 +83,7 @@ export const videosData = [
         miniFirst: "https://www.chipdip.ru/video/id003848061",
         miniFirstHourse: "19:03",
         miniFirstDescription: "Усилитель мощности класса D. Конструктор. TDA7498",
-        miniSecond: "https://www.chipdip.ru/video/id013362317",
+        miniSecond: "https://www.youtube.com/embed/8r9gtdrcJjk",
         miniSecondHours: "15:47",
         miniSecondDesription: "DSP Machine 3 | Пока не закрыта крышка. Что внутри?"
     },

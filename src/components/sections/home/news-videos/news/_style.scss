@@ -44,13 +44,20 @@
                     font-weight: 400;
                     line-height: 16px;
                     color: #1C2D38;
+                    &:hover{
+                        text-decoration: underline;
+                        text-decoration-color: #1c2d383f;
+                    }
                 }
                 h3{
                     font-size: 16px;
                     line-height: 20px;
                     font-weight: 400;
                     color: #1C2D38;
-                    ;
+                    &:hover{
+                        text-decoration: underline;
+                        text-decoration-color: #1c2d383f;
+                    }
                 }
             }
         }
