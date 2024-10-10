@@ -140,8 +140,6 @@ export const data = [
       { id: 1, url: "https://example1.com", text: "Припои с канифолью" },
       { id: 2, url: "https://example2.com", text: "Припои без канифоли" },
       { id: 3, url: "https://example3.com", text: "Флюсы" },
-
-
     ],
   },
 
@@ -266,7 +264,6 @@ export const hitsData = {
   products: [
     {
       id: 1,
-
       image: CatlogP1,
       title: 'FS7M0880YDTU, Контроллер off-line SMPS [TO-3P-5L-Leadsformed]',
       brand: 'ON Semiconductor',
@@ -281,7 +278,6 @@ export const hitsData = {
       phone: "9000676868",
       operating_temp:  '-25…+85',
       corpus: 'to-220f-5, formed',
-      brand: "СОЭКС",
       name: "Эковизор F4, Многофункциональный прибор 4 в 1",
       price: "14 990 р.",
       imageUrl: Card1,
@@ -436,7 +432,6 @@ export const hitsData = {
       max_duty: '55',
       operating_temp:  '-25…+85',
       corpus: 'to-220f-5, formed',
-      brand: "PROSKIT",
       name: "6PK-301H, Кримпер для обжима изолированных клемм 4.0-6.0",
       price: "4 350 р.",
       imageUrl: Card2,

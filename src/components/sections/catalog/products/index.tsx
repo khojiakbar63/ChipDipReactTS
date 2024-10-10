@@ -16,12 +16,12 @@ export const Products: React.FC = () => {
                   {item.title}
                 </Text>
                 <Box className="catalog--products--product--description--text--context">
-                  <Text className="catalog--products--product--description--text--context-item">
+                  <p className="catalog--products--product--description--text--context-item">
                     Бренд:{" "}
-                    <Text className="catalog--products--product--description--text--context-item-info">
+                    <p className="catalog--products--product--description--text--context-item-info">
                       {item.brand}
-                    </Text>
-                  </Text>
+                    </p>
+                  </p>
                   <Text className="catalog--products--product--description--text--context-item">
                     Серия:{" "}
                     <Text className="catalog--products--product--description--text--context-item-info">
