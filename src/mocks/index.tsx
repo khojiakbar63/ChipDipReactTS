@@ -383,7 +383,9 @@ export const popularData = {
       buttonText: "Перейти к выбору",
       promoText: "Новинки, которые пользуются повышенным спросом",
     },
-  ],
+    
+  ]
+ 
 };
 
 
@@ -807,9 +809,141 @@ export const ConsumablesRecommendationData = [
 
 
 
+export const Brend=[
+  {
+    name:"ARBIOLA",
+    num:6,
+    number:4
+  },
+  {
+    name:"AXIS",
+    num:26,
+    number:6
+  },
+  {
+    name:"Buderus",
+    num:33,
+    number:7
+  },
+  {
+    name:"ELSEN",
+    num:2,
+    number:8
+  },
+  {
+    name:"GEKON",
+    num:43,
+    number:"8шт"
+  },
+  {
+    name:"Heaton",
+    num:31,
+    number:"10шт"
+  },
+  {
+    name:"Heaton Plus",
+    num:53,
+    number:12
+  },
+  {
+    name:"IRSAP",
+    num:51,
+    number:"12шт"
+  },
+  {
+    name:"Kermi",
+    num:97,
+    number:16
+  },
+  {
+    name:"LAMMIN",
+    num:48,
+    number:"16шт"
+  },
+  {
+    name:"Lemax",
+    num:12,
+    number:18
+  },
+  {
+    name:"Oasis",
+    num:2,
+    number:"18шт"
+  },
+  {
+    name:"Ogint",
+    num:1,
+    number:"20шт"
+  },
+  {
+    name:"Primoclima",
+    num:39,
+    number:22
+  },
+  {
+    name:"Purmo",
+    num:15,
+    number:24
+  },
+  {
+    name:"Rifar",
+    num:46,
+    number:"24шт"
+  },
+  {
+    name:"Royal thermo",
+    num:35,
+    number:26
+  },
+  {
+    name:"Sti",
+    num:1,
+    number:"26шт"
+  },
+  {
+    name:"Uni fitt",
+    num:142,
+    number:"28шт"
+  },
+  {
+    name:"Valfex",
+    num:150,
+    number:"30шт"
+  },
+  {
+    name:"Varmann",
+    num:32,
+    number:"Панельный"
+  },
+  {
+    name:"VIESSMANN",
+    num:1
+  },
+  {
+    name:"Vogel&Noot",
+    num:10
+  },
+  {
+    name:"Zehnder",
+    num:15
+  },
+  {
+    name:"КЗТО",
+    num:62
+  },
+  {
+    name:"Лидея",
+    num:7
+  },
+  {
+    name:"ЛЛМЗ",
+    num:8
+  }
+]
 
-
-
+<!-- export const HowMany=[
+  ,
+] -->
 
 // {
 //   id: 1,
