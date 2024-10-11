@@ -34,6 +34,7 @@ export const News: React.FC = () => {
             <Box key={index} className="newsBox">
               <Image src={item.img1} alt="" />
               <div className="aboutInfo">
+                ★★★☆☆
                 <p>{item.date}</p>
                 <h3>{item.description}</h3>
               </div>
@@ -43,6 +44,7 @@ export const News: React.FC = () => {
             <Box key={index} className="newsBox">
               <Image src={item.img2} alt="" />
               <div className="aboutInfo">
+                ★★★★☆
                 <p>{item.date2}</p>
                 <h3>{item.description2}</h3>
               </div>

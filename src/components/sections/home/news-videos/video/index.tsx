@@ -34,7 +34,10 @@ export const Video: React.FC = () => {
                 <Box key={index} className="videosBox">
                   <iframe src={item.miniFirst} alt="" scrolling="no"/>
                   <div className="aboutInfo">
+                    <div style={{display: "flex", alignItems: 'center', gap:"10px"}}>
+                      ☆☆☆☆☆
                     <p>{item.miniFirstHourse}</p>
+                    </div>
                     <h3>{item.miniFirstDescription.substring(0,50)}</h3>
                   </div>
                 </Box>
@@ -47,6 +50,7 @@ export const Video: React.FC = () => {
                 <Box key={index} className="videosBox">
                   <iframe src={item.bigVideo} alt="" scrolling="no"/>
                   <div className="aboutInfo">
+                    
                     <p>{item.bigHours}</p>
                     <h3>{item.bigDescription.substring(0,40)}</h3>
                   </div>
