@@ -17,9 +17,6 @@ $FA: #fafafa;
       display: flex;
       justify-content: space-between;
       border-bottom: 1px solid $E5;
-      &:last-child {
-        border: none;
-      }
       &--description {
         display: flex;
         padding: 15.5px;
@@ -27,17 +24,24 @@ $FA: #fafafa;
         &--text {
           width: 526.41px;
           &--title {
+            width: fit-content;
             color: $B7;
             font-weight: 400;
             font-size: 14px;
             line-height: 20px;
             margin-bottom: 2px;
+            border-bottom: 1px solid transparent;
+            transition: all 0.1s ease;
+            &:hover {
+              cursor: pointer !important;
+              border-color: $B7;
+            }
           }
           &--context {
             padding-left: 6.5px;
             padding-top: 1px;
             &-item {
-              display: flex;
+              display: flex !important;
               align-items: center;
               gap: 4px;
 
@@ -53,9 +57,16 @@ $FA: #fafafa;
               }
             }
           }
+
+          &--price {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: $D38;
+            margin-bottom: 2px;
+          }
         }
       }
-
       &--actions {
         margin-top: 7px;
         display: flex;
@@ -66,6 +77,10 @@ $FA: #fafafa;
           width: 85px;
           height: 75px;
         }
+      }
+
+      &:last-child {
+        border: none;
       }
     }
   }

@@ -17,7 +17,7 @@ export const Bestsellers: React.FC = () => {
                             <button className="arrow-right"><GoArrowLeft /></button>
                             <button className="arrow-left"><GoArrowRight /></button>
                         </div>
-                    </div>
+                    </div> 
                     <div className="cards-container">
                         {hitsData.products
                             .filter((_, index) => index !== hitsData.products.length - 1)

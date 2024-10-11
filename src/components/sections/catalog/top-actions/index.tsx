@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { Box, Button, Flex, Image, Input, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import { RxShare2 } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import FX from "../../../../assets/icons/fx.svg";

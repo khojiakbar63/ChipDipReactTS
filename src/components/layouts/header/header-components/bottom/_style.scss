@@ -5,13 +5,14 @@ $FA7: #8b9fa7;
 $D9B: #b4babd9b;
 $ABD: #b4babd;
 
-
+ 
 .bottom {
   display: flex;
-  position: sticky !important;
+  position: sticky;
   top: 0 !important;
   position: -webkit-sticky;
   z-index: 10000;
+
 
 
 
@@ -66,3 +67,4 @@ $ABD: #b4babd;
     }
   }
 }
+

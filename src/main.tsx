@@ -15,10 +15,15 @@ createRoot(document.getElementById("root")!).render(
     <ChakraProvider>
       <ConfigProvider
         theme={{
+          components: {
+            Pagination: {
+             itemActiveColorDisabled: "black"
+            },
+          },
           token: {
             colorPrimary: "#00b96b",
             borderRadius: 2,
-            colorBgContainer: "#f6ffed"
+            colorBgContainer: "#f6ffed",    
           }
         }}
       >

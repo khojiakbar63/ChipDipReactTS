@@ -20,7 +20,7 @@ export const Details: React.FC = () => {
         <WithLikeProduct />
         <Spacer className="h-23" />
         <Recommendation />
-        <Spacer className="h-23" />
+        <Spacer className="h-50" />
       </Container>
     </div>
   );

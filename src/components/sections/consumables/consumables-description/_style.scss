@@ -1,0 +1,32 @@
+.accordion {
+    .paragraph {
+      margin-bottom: 28px; 
+      transition: opacity 0.3s ease; 
+      font-size: 14px;
+      font-weight: 400;
+      &.blurred {
+        opacity: 0.3; 
+      }
+    }
+  
+    .toggle-btn {
+      color: #337AB7;
+      
+        .icon-text{
+          cursor: pointer;
+          border-bottom: 1px transparent dashed;
+          &:hover {
+            text-underline-offset: 6px; 
+            border-color:#5ea1a3 ;
+          }
+        }
+      .icon-wrap{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+    
+    }
+  }
+  
