@@ -29,7 +29,7 @@ createRoot(document.getElementById("root")!).render(
       >
         <QueryClientProvider client={client}>
           <RouterProvider router={router} />
-          {/* <ReactQueryDevtools initialIsOpen={false} /> */}
+          <ReactQueryDevtools initialIsOpen={false} />
         </QueryClientProvider>
       </ConfigProvider>
     </ChakraProvider>

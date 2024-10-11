@@ -1,5 +1,5 @@
-import Card1 from '../assets/images/soeks.png'
-import Card2 from '../assets/images/proskit.png'
+// import Card1 from '../assets/images/soeks.png'
+// import Card2 from '../assets/images/proskit.png'
 import Card3 from '../assets/images/testo.png'
 import Card4 from '../assets/images/znatok.png'
 import Card5 from '../assets/images/robiton.png'
