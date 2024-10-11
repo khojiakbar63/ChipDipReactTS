@@ -1,12 +1,12 @@
 
 import React from "react";
 import { useState } from "react";
-import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Box, Checkbox, Input } from "@chakra-ui/react";
+import { Accordion, AccordionItem, AccordionButton, AccordionPanel, Input, Checkbox, Box } from "@chakra-ui/react";
 import {TriangleUpIcon, TriangleDownIcon} from "@chakra-ui/icons"
 import {Brend} from "../../../mocks";
 import border from "../../../assets/images/border.svg"
 import "./_style.scss"
-import { color, px } from "framer-motion";
+// import { color, px } from "framer-motion";
 export const Aside: React.FC = () => {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +28,7 @@ export const Aside: React.FC = () => {
         <AccordionPanel pb={4} maxHeight="200px" overflowY="auto">
         <Input variant='unstyled' placeholder='Поиск значений' />
           {
-            Brend.map((item, i)=>(
+            Brend.map((item:any, i:number)=>(
               <Checkbox style={{display:"flex", alignItems:"center"}}  key={i} defaultValue={""}>{item.name} <sub>{item.num}</sub></Checkbox>
             )
 

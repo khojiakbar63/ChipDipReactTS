@@ -939,11 +939,7 @@ export const Brend=[
     name:"ЛЛМЗ",
     num:8
   }
-]
-
-<!-- export const HowMany=[
-  ,
-] -->
+] 
 
 // {
 //   id: 1,
