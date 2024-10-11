@@ -20,6 +20,7 @@ export {Bottom} from './layouts/header/header-components/bottom'
 
 // Spacer
 export { Spacer } from "./layouts/spacer";
+export { FixedChat } from "./ui/chat";
 
 // Catalog page
 export {TopActions} from './sections/catalog/top-actions'
